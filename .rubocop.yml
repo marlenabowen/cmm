@@ -1,0 +1,27 @@
+Style/Documentation:
+  Enabled: false
+
+Style/BlockComments:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/ExpandPathArguments:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+AllCops:
+  Exclude:
+    - 'config/**/*'
+    - 'db/**/*'
+    - 'bin/**/*'
+    - 'app/channels/**/*'
+    - 'test/**/*'
+    - './Gemfile'
+    - './Rakefile'
